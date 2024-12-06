@@ -28,7 +28,7 @@ start:
         }
     }
     while (padScanOnNextFrame()) {
-        if (fps == 30) {VIDEO_WaitVSync();} // slow down to 30 fps
+        if (fps == 30) {VIDEO_WaitVSync();} // wait 1f to slow down to 30 fps
         if (ctr % fps == 0) {
             if (presses != 0) {printf(" %d\n", presses); presses = 0;}
             ctr = 0; presses = 0;
