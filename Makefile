@@ -16,6 +16,7 @@ LIBS		 =	-logc
 LIBDIRSBNDLE =	$(wildcard lib/*/_)
 LIBDIRSLOOSE =	
 INCLUDES	 =	
+LIBOGC		 =	$(DEVKITPRO)/libogc
 
 # --- flags --- # do not include MACHDEP here !!! (see readme linked at top)
 CFLAGS		 =	-save-temps -g -O2 -Wall -Wno-unused-variable
